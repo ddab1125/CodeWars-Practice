@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="073200f8-ef02-4047-84ce-e28c4cb4e2b8" name="Changes" comment="Finished kata">
-      <change afterPath="$PROJECT_DIR$/src/test/java/codewars/LongToIPTest.java" afterDir="false" />
+    <list default="true" id="073200f8-ef02-4047-84ce-e28c4cb4e2b8" name="Changes" comment="Test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/codewars/Meeting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codewars/LongToIP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codewars/LongToIP.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -67,13 +66,13 @@
       <recent name="codewars" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LongToIPTest.convert">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.App" />
+  <component name="RunManager" selected="Application.Meeting">
+    <configuration name="LongToIP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codewars.LongToIP" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="codewars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongToIP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codewars.LongToIP" />
+    <configuration name="Meeting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codewars.Meeting" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
@@ -143,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Meeting" />
         <item itemvalue="JUnit.LongToIPTest.convert" />
         <item itemvalue="Application.LongToIP" />
         <item itemvalue="JUnit.ChromosomesKataTest" />
         <item itemvalue="JUnit.ChromosomesKataTest.determineGender" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +160,7 @@
       <updated>1677500119707</updated>
       <workItem from="1677500120907" duration="1855000" />
       <workItem from="1677600118083" duration="3696000" />
-      <workItem from="1677603821343" duration="340000" />
+      <workItem from="1677603821343" duration="3039000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1677500355221</created>
@@ -184,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677603936883</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Test">
+      <created>1677604246329</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677604246329</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +199,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Finished kata" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished kata" />
+    <MESSAGE value="Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/codewars/Meeting.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
